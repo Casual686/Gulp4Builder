@@ -1,8 +1,8 @@
-# Учебная сборка Loftschool
+# Моя первая сборка на gulp 4.0
 
-> Сборка работает на gulp версии 4.0. 
+> Сборка работает на gulp версии 4.0.
 
-#### Для начала работы
+#### install
 
 1. ```clone this repo```
 2. ```cd path/to/...```
@@ -10,5 +10,6 @@
 > Установка последней версии Gulp CLI tools глобально (подробнее - [GitHub](https://github.com/gulpjs/gulp/blob/4.0/docs/getting-started.md) )
 
 4. ```npm install```
-6. ```run gulp``` 
+6. ```run gulp```
 
+> Спрайты по дефолту отключены их можно вызвать отдельными командами
