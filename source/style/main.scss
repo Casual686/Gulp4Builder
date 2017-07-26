@@ -1,5 +1,23 @@
-body {
-  margin: 0;
-}
+//colors
+$main--lighten:         #00bfa5;
+$main--light:             #009688;
+$main--dark:             #455a64;
+$main--darken:         #373e42;
 
-@import 'common/greating';
+$white:                      #efeee9;
+$beige:                      #eeebdf;
+$main-font-color :    #373e42;
+$light-beige:             #faf8f0;
+$gray:                       #b6b4ae;
+
+//mixins
+@import "mixins/mixins";
+
+//settings
+@import 'layout/adjustment';
+@import 'layout/font-awesome';
+@import 'layout/fonts';
+
+
+//pages
+@import 'blocks/*.*';

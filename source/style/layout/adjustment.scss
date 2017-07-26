@@ -1,0 +1,71 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+//	font-family: 'roboto', Arial, Tahoma, sans-serif;
+	font-family: Arial, Tahoma, sans-serif;
+	margin: 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.42;
+	color: $main--dark;
+	-webkit-font-smoothing: antialiased;
+
+	@include tablets() {
+		font-size: 14px;
+    }
+
+}
+
+.wrapper {
+	min-height: 100%;
+	position: relative;
+	overflow: hidden;
+
+	@include phones() {
+        min-width: 320px;
+    }
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+p {
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: normal;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: 0 0;
+    cursor: pointer;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+%clearfix {
+	&::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}

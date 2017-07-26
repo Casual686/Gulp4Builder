@@ -3,7 +3,10 @@
 module.exports = function() {
     $.gulp.task('pug', function() {
         return $.gulp.src('./source/template/pages/*.pug')
-        .pipe($.gp.pug({ pretty: true }))
+        .pipe($.gp.pug({
+            locals : JSON.parse($.fs.readFileSync('./source/content.json', 'utf8')),
+            pretty: '\t'
+        }))
         .on('error', $.gp.notify.onError(function(error) {
             return {
                 title: 'Pug',
