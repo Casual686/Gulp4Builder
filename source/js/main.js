@@ -1,6 +1,6 @@
+'use strict';
 (function() {
-    'use strict';
 
-        console.log('hallo world!!!');   
+        console.log('hallo world!!!');
 
 })();
