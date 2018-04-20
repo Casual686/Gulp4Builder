@@ -3,7 +3,7 @@
 
 module.exports = function () {
     $.gulp.task('sprite:png', function () {
-        var spriteData = $.gulp.src('./source/images/icons/*.png')
+        var spriteData = $.gulp.src('./source/img/icons/*.png')
         .pipe($.gp.spritesmith({
             imgName: 'sprite.png', // итоговый спрайт
             cssName: 'sprite.scss', // файл стилей
@@ -11,7 +11,7 @@ module.exports = function () {
             padding: 20
         }));
         var imgStream = spriteData.img
-            .pipe($.gulp.dest('./source/images/icons')); // путь куда записываем спрайт
+            .pipe($.gulp.dest('./source/img/icons')); // путь куда записываем спрайт
 
         var cssStream = spriteData.css
             .pipe($.gulp.dest('./source/style/common')); // путь куда записываем файл стилей для спрайта

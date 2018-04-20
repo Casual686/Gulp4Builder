@@ -14,7 +14,9 @@
 4. ```npm install gulpjs/gulp-cli -g```  
 > Install packages
 5. ```npm install``` or just ```yarn``` ;)
+> Cleaning
+6. Delete files in folders```fonts```, ```img```, ```blocks```
 > Run Gulp
-6. ```gulp```
+7. ```gulp```
 
 > Tasks creating sprites are disabled by default!
