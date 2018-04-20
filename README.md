@@ -15,7 +15,7 @@
 > Install packages
 5. ```npm install``` or just ```yarn``` ;)
 > Cleaning
-6. Delete files in folders```fonts```, ```img```, ```blocks```
+6. Delete files```forEmptyFolder.del``` in folders```fonts```, ```img```, ```/style/blocks/```
 > Run Gulp
 7. ```gulp```
 
