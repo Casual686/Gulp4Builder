@@ -2,7 +2,7 @@
 
 module.exports = function() {
     $.gulp.task('copy:image', function() {
-        return $.gulp.src('./source/img/**/*.*', { since: $.gulp.lastRun('copy:image') })
+        return $.gulp.src('./source/img/**/*.*')
             .pipe($.gulp.dest($.config.root + '/img'));
     });
 };
