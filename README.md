@@ -5,7 +5,7 @@
 #### install
 
 > Clone project from computer
-1. ```git clone git@github.com:Casual686/Gulp4Builder.git folder_name```
+1. ```git clone https://github.com/Casual686/Gulp4Builder.git folder_name```
 > Change directory
 2. ```cd folder_name/```
 > Set you git repo for push
